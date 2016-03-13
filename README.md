@@ -40,17 +40,16 @@ func main() {
 }
 ```
 
-### Build and Run
+### Build 
 ```
 go build cli.go
 go build svr.go
+```
 
-# run server
+
+### Run a server and two instances of client
+```
 svr
-
-# run first client giving  nickname as argument
 cli superman
-
-# run second client
 cli batman
 ```
