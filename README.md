@@ -7,7 +7,7 @@ Simple chatting server and client written in Go
 
 
 ### Server
-```
+```go
 package main
 
 import "github.com/ikspres/gochat/server"
@@ -19,7 +19,7 @@ func main() {
 
 ### Client
 
-```
+```go
 package main
 
 import (
@@ -38,8 +38,9 @@ func main() {
 
 	cli.Go()
 }
+```
 
-### running
+### Build and Run
 ```
 go build cli.go
 go build svr.go
